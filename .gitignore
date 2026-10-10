@@ -1,0 +1,27 @@
+# 依赖
+node_modules/
+
+# 密钥与本地配置
+.env
+.env.*
+*.local.json
+secrets.json
+
+# 本地工作产物（含文件清单与文件 ID，不要提交）
+work/
+*.state
+*.baseline
+report.json
+plan.tsv
+plan.json
+proposal.json
+
+# 日志与缓存
+*.log
+logs/
+.cache/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
